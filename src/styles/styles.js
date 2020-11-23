@@ -1,0 +1,40 @@
+import { StyleSheet } from 'react-native';
+import COLOR from './colors';
+
+export default StyleSheet.create({
+  absolute: { position: 'absolute' },
+  bgWhite: { backgroundColor: COLOR.WHITE },
+  bgTransparent: { backgroundColor: 'transparent' },
+  bgWhiteTranslucent: { backgroundColor: 'rgba(255,255,255, 0.3)' },
+  m15: { margin: 15 },
+  mb5: { marginBottom: 5 },
+  mb10: { marginBottom: 10 },
+  mr10: { marginRight: 10 },
+  ml5: { marginLeft: 5 },
+  mh20: { marginHorizontal: 20 },
+  l0: { left: 0 },
+  r0: { right: 0 },
+  t0: { top: 0 },
+  b0: { bottom: 0 },
+  h100: { height: 100 },
+  font20: { fontSize: 20 },
+  font90: { fontSize: 90 },
+  colorWhite: { color: COLOR.WHITE },
+  fontRegular: { fontFamily: 'SourceSansPro-Regular' },
+
+  f1: { flex: 1 },
+  fDirectionRow: { flexDirection: 'row' },
+  fDirectionColumn: { flexDirection: 'column' },
+  center: { justifyContent: 'center', alignItems: 'center' },
+  aCenter: { alignItems: 'center' },
+  jCenter: { justifyContent: 'center' },
+  aEnd: { alignItems: 'flex-end' },
+  aStart: { alignItems: 'flex-start' },
+  shadow2: {
+    elevation: 2,
+    shadowRadius: 1,
+    shadowColor: 'black',
+    shadowOffset: { height: 2, width: 0 },
+    shadowOpacity: 0.2,
+  },
+});
