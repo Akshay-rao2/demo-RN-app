@@ -18,8 +18,8 @@ export function getDateTimeData() {
         } else {
           Alert.alert('Error!', tryAgainMsg);
         }
-      }).catch(() => {
-        Alert.alert('Error!', tryAgainMsg);
+      }).catch((err) => {
+        Alert.alert('Error!', tryAgainMsg + err);
       })
   );
 }
